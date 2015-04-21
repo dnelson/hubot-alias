@@ -21,7 +21,7 @@ module.exports = (robot) ->
     if new RegExp("^([^\\s]*)(.*)$").test orgText
       action = RegExp.$1
       rest = RegExp.$2
-      msg.text = "#{robot.name} #{table[action] || action}#{rest}" if action != 'alias'
+      msg.text = "#{robot.name} #{table[action]}#{rest}" if action != 'alias' && table[action]
 
     receiveOrg.bind(robot)(msg)
 
