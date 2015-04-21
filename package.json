@@ -1,8 +1,8 @@
 {
   "name": "hubot-alias",
   "description": "Action alias for hubot",
-  "version": "0.1.6",
-  "author": "dtaniwaki",
+  "version": "0.1.7",
+  "author": "dtaniwaki,packetcollision",
   "license": "MIT",
   "keywords": [
     "hubot",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dtaniwaki/hubot-alias.git"
+    "url": "git://github.com/packetcollision/hubot-alias.git"
   },
   "bugs": {
-    "url": "https://github.com/dtaniwaki/hubot-alias/issues"
+    "url": "https://github.com/packetcollision/hubot-alias/issues"
   },
   "devDependencies": {
     "hubot": "2.8.0",
